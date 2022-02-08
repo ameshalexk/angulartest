@@ -1,0 +1,13 @@
+.redText {
+  color: red;
+}
+
+.important {
+  text-transform: capitalize;
+  font-weight: bold;
+
+}
+
+.yellowBackground {
+  background-color: yellow;
+}
