@@ -1,0 +1,16 @@
+.danger {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.important {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button {
+  margin: 5px;
+}

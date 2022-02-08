@@ -1,1 +1,73 @@
-<p>binding works!!</p>
+<div class="container">
+
+  <br>
+  <div>
+    <h3>
+      Interpolation!
+    </h3>
+    <p>2+2 = {{2+2}}</p>
+    <p>Hello {{name}}.</p>
+    <!-- <p>{{greetings()}}</p> -->
+  </div>
+
+  <!-- <div>
+    <h3>Property Binding</h3>
+    <input type="text" value="{{input1}}"> <br><br>
+    <input type="text" [value]="input2"> <br><br>
+    <input (click)="greetings3()" type="text" value=Anything [disabled]="input3"> <br><br>
+
+  </div>
+  <div>
+    <h3>Class Binding</h3>
+    <p class="success">Styled added normally</p>
+    <p class="{{input4}}" >Styled added through class </p>
+    <p [class.success]="!input3" > class </p>
+
+
+  </div>
+  <div>
+    <h3>Style Binding</h3>
+    <p style="color: blue">using style binding</p>
+    <p [style.color]="'blue'">using style binding</p>
+    <p (click)="greetings3()"  [style.backgroundColor]="input3 ? 'yellow' : 'purple '">using style binding</p>
+    <p [style.color]="newst" >using var style binding</p>
+    
+
+
+  </div>
+  <div>
+    <h3>Event Binding</h3>
+    <p (click)="greetings3()">using event binding</p>   
+    <button (click)="many2()" class="btn btn-primary">232323  </button>   
+    <button (click)="lolas($event)" class="btn btn-primary">sdsdsds  </button>   
+    <button (click)="name='Anu'"  class="btn btn-primary">anu  </button>   
+    <button (click)="greetings()"  class="btn btn-primary">test  </button>   
+
+
+
+  </div> -->
+  <!-- <div>
+    <h3>Template Reference Variables</h3>
+
+    <p>Color = {{color}}</p>
+
+    <input type="text" name="color" id="color" #newColor>
+
+    <button class="btn btn-primary" (click)="changeColor(newColor)" >Change Color</button>
+
+  </div> -->
+
+  <div>
+
+    <h3>Two way binding (ngModel)</h3>
+    <p>Animal = {{animal}}</p>
+
+    <div>
+      <label for="animal">Animal</label> <br>
+      <input type="text" name="animal" id="animal" [(ngModel)] = "animal" >
+    </div>
+
+  </div>
+
+
+</div>
